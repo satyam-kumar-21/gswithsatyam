@@ -9,12 +9,16 @@ import Contact from './components/contact/Contact';
 import Course from './components/courses/Course';
 import GeoSyllabus from './components/notes/geography/GeoSyllabus';
 import Universe from './components/notes/geography/astronomy/Universe';
+import Galaxy from './components/notes/geography/astronomy/Galaxy';
+import Stars from './components/notes/geography/astronomy/Stars';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -23,6 +27,8 @@ function App() {
         <Route path="/geography" element={<GeoSyllabus />} />
         {/* astronomy  */}
         <Route path="/universe" element={<Universe />} />
+        <Route path="/galaxies" element={<Galaxy />} />
+        <Route path="/stars" element={<Stars />} />
       </Routes>
       <Footer />
     </>

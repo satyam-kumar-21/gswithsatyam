@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Universe = () => {
   return (
-    <div className="bg-gray-50 min-h-screen p-8">
+    <div className="bg-gray-50 min-h-screen p-1 md:p-8">
       {/* Container for Content */}
-      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+      <div className="max-w-4xl mx-auto bg-white p-3 md:p-8 rounded-lg shadow-md">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-6">
           Universe and its Formation (ब्रह्मांड और इसका निर्माण)
         </h1>
@@ -36,7 +37,7 @@ const Universe = () => {
         </section>
 
         {/* Additional Notes */}
-        <section className="mt-8 p-6 bg-white rounded-lg shadow-md">
+        <section className="mt-8 p-4 md:p-6 bg-white rounded-lg shadow-md">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">
             Additional Notes (अतिरिक्त नोट्स)
           </h2>
@@ -98,6 +99,16 @@ const Universe = () => {
             बिग बैंग थ्योरी का समर्थन करने वाले मुख्य प्रमाणों में से एक रेडशिफ्ट की घटना है। रेडशिफ्ट तब होती है जब दूरस्थ वस्तुओं से आने वाला प्रकाश हमारे से दूर जाते समय लंबी, लालतर तरंगदैर्ध्य में बदल जाता है। यह बदलाव दर्शाता है कि ब्रह्मांड फैल रहा है, क्योंकि आकाशीय वस्तुओं के बीच की जगह फैल रही है।
           </p>
         </section>
+
+
+        <div className="flex justify-between mt-8">
+          <Link to="/geography" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+            Previous / पिछले
+          </Link>
+          <Link to="/galaxies" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+            Next / अगला
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -10,10 +10,10 @@ const Syllabus = () => {
           Introduction to Geography (भूगोल का परिचय)
         </h1>
         <p className="text-lg text-gray-700 mb-2">
-          Geography is a science that deals with the description and explanation of Earth's surface. The English word "Geography" comes from the Greek words “ge” (earth) and “grapho” (to describe). Thus, geography essentially means the description of the Earth.
+          Geography is the study of Earth's landscapes, environments, and the relationships between people and their environments. It covers both the physical aspects of the Earth, such as landforms and climates, and the human aspects, such as cultures and economies.
         </p>
         <p className="text-lg text-gray-700">
-          भूगोल एक ऐसा विज्ञान है जो भूतल (पृथ्वी की सतह) के वर्णन एवं व्याख्या से सम्बंधित है। भूगोल का अंग्रेजी पर्याय ‘Geography’ (ज्योग्राफी) है जिसकी उत्पत्ति यूनानी भाषा के ‘ge’ (जी) और ‘grapho’ (ग्राफो) शब्दों के मिलने से हुई है। ‘ge’ का शाब्दिक अर्थ ‘पृथ्वी’ और ‘ग्राफो’ का शाब्दिक अर्थ ‘वर्णन करना’ होता है। इस प्रकार भूगोल (Geography) का सामान्य अर्थ है- पृथ्वी का वर्णन।
+          भूगोल पृथ्वी के परिदृश्य, पर्यावरण और लोगों और उनके पर्यावरण के बीच संबंधों का अध्ययन है। इसमें पृथ्वी के भौतिक पहलू जैसे कि भूआकृतियाँ और जलवायु, और मानव पहलू जैसे कि संस्कृतियाँ और अर्थव्यवस्थाएँ शामिल हैं।
         </p>
         <p className="text-lg text-gray-700 font-bold mt-4">
           Father of Geography (भूगोल के जनक): Eratosthenes (एराटोस्थनीज)
