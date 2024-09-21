@@ -118,7 +118,7 @@ const Stars = () => {
           <Link to="/galaxies" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
             Previous / पिछले
           </Link>
-          <Link to="/celestial-objects" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+          <Link to="/black-holes" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
             Next / अगला
           </Link>
         </div>

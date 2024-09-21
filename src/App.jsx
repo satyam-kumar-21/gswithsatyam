@@ -12,6 +12,9 @@ import Universe from './components/notes/geography/astronomy/Universe';
 import Galaxy from './components/notes/geography/astronomy/Galaxy';
 import Stars from './components/notes/geography/astronomy/Stars';
 import ScrollToTop from './ScrollToTop';
+import BlackHole from './components/notes/geography/astronomy/BlackHole';
+import CelestialObject from './components/notes/geography/astronomy/CelestialObject';
+import SolarSystem from './components/notes/geography/astronomy/SolarSystem';
 
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
         <Route path="/universe" element={<Universe />} />
         <Route path="/galaxies" element={<Galaxy />} />
         <Route path="/stars" element={<Stars />} />
+        <Route path="/black-holes" element={<BlackHole />} />
+        <Route path="/celestial-objects" element={<CelestialObject />} />
+        <Route path="/solar-system" element={<SolarSystem />} />
       </Routes>
       <Footer />
     </>
