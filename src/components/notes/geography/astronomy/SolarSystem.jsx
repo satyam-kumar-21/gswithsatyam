@@ -17,7 +17,7 @@ const SolarSystem = () => {
             (The solar system contains about 98 to 99% of its mass near the Sun. It is an astronomical system that includes various planets, moons, dwarf planets, and comets orbiting around the Sun.)
           </p>
           <img 
-            src="https://media.licdn.com/dms/image/v2/D4D12AQFiCdccTOH-rg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1681743558580?e=2147483647&v=beta&t=evGK7fA9g5vwYlo8RoofALjn9WRaV8s4PTf72lhCQjk" 
+            src="https://www.shutterstock.com/image-vector/vector-illustration-diagram-solar-system-260nw-1194031186.jpg" 
             alt="Solar System" 
             className="w-full h-auto rounded-lg mb-4"
           />
